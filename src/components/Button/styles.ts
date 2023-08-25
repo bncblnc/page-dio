@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
+import { IButtonStyled } from "./types";
 
-export const ButtonContainer = styled.button`
+export const ButtonContainer = styled.button<IButtonStyled>`
   background: ${({ variant }) =>
     variant === "primary" ? "#565656" : "#e4105d"};
   border: none;
@@ -33,6 +34,14 @@ export const ButtonContainer = styled.button`
         width: calc(100% + 10px);
         height: calc(100% + 10px);
         border-radius: 22px;
+        transition: all 0.2s;
+      }
+
+      &:hover::after {
+        width: calc(100% + 8px);
+        height: calc(100% + 7px);
+        top: -4px;
+        left: -5px;
       }
     `}
 `;
