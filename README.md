@@ -13,6 +13,7 @@
 </div>
   <h3>💻 TECNOLOGIA:</h3>
   <img  alt="React" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+  <img  alt="TypeScript" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"> 
 </div>
 <hr>
 <div align="center">
